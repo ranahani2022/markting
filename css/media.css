@@ -1,0 +1,416 @@
+
+/* ************************************* (1300px) ********************************* */
+
+@media screen and (max-width: 1300px) {
+
+  body 
+  {
+    padding: 0 .5em 0 1.3em;
+  }
+
+  .info-left .dif2 .photo
+  {
+    display: none;
+  }
+
+  .leads
+  {
+    margin-top: 1em;
+  }
+
+  
+  
+}
+
+/* ************************************ (1153px) ********************************** */
+
+@media screen and (max-width: 1153px) {
+
+  .nav-content {
+    display: flex;        
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    width: 50%;
+    right: -100%;
+    position: fixed;
+    top: 0px;
+    z-index: 7;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    transition: right 1s linear;
+    background-color: #ddd;
+  }
+
+  .navbar ul li a {
+    width: 100%;
+    display: block;
+    line-height: 4em;
+    text-align: center;
+  }
+
+   ul.active
+  {
+    right: 0;
+  }
+
+  .navbar #close-menu
+  {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    top: 10px;
+  }
+
+  #close-menu , #menu-media
+  {
+    cursor: pointer;
+  }
+
+  .navbar .btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar .btn button {
+    margin-left: 1em;
+  }
+
+  nav .menu {
+    width: 1%;
+    display: flex;        
+    font-size: 1.5em;
+  }
+
+
+} 
+
+/* *********************************** (1005px) *********************************** */
+
+@media screen and (max-width: 1005px) {
+  .leads-text .leads-text-title h1
+  {
+    font-size: 2.5em;
+  }
+
+
+  
+}
+
+/* ********************************(768px , 991px)************************************** */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .offer-content 
+  {
+    margin-left: 4em;
+  }
+
+  .offer-about
+  {
+    min-width: 260px;
+    margin: auto;
+  }
+
+  .leads .leads-photo
+  {
+    margin-top: 6em;
+   
+  }
+
+  .team .row .team-text 
+  {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .team .team-image
+  {
+    width: 80%;
+    margin: 2em auto;
+  }
+
+  .price .price-md
+  {
+    width: 50%;
+    margin: 2em auto;
+  }
+
+  .join .join-left
+  {
+    margin: 0 auto 4em;
+  }
+
+  .join .join-right
+  {
+    margin: auto;
+  }
+
+
+
+
+}
+
+/* **********************************  (703px , 803px) ******************************************* */
+
+@media screen and (min-width: 703px) and (max-width: 803px) {
+  .photos img {
+    width: 80%;
+  }
+
+    .service-list
+  {
+    width: 100%;
+    margin: auto;
+  }
+
+
+
+}
+
+/* ********************************* (767px) ************************************* */
+
+@media screen and (max-width: 767px) {
+  .info-left .dif1
+  {
+    width: 100%;
+    margin: auto;
+  }
+
+  .info .info-right
+  {
+    width: 100%;
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .info .list
+  {
+    width: fit-content;
+    margin: auto;
+    
+  }
+
+  .leads .leads-text
+  {
+    text-align: center;
+  }
+
+  .leads .leads-text .list
+  {
+    width: fit-content;
+    text-align: left;
+    margin: 0 auto 2em;
+  }
+
+  .leads .leads-photo 
+  {
+    margin-top: 3em;
+  }   
+
+  .team 
+  {
+    margin-top: 0;
+  }
+
+  .team .row .team-text 
+  {
+    margin-top: 0px;
+  }
+
+  .team-text
+  {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .join .join-left
+  {
+    margin: 0 auto 4em;
+  }
+
+  .join .join-right
+  {
+    margin: .5em auto 0;
+  }
+
+
+  
+}
+
+/* ********************************  (501px , 767px) ************************************** */
+
+@media (min-width: 501px) and (max-width: 767px) {
+
+  .offer .offer-about
+  {
+    max-width: 330px;
+    margin: 2em auto;
+  }
+
+  .price .price-card
+  {
+    width: max-content;
+    margin: 1em auto;
+  }
+
+
+
+}
+
+/* ************************************  (501px , 702px) ********************************** */
+
+@media (min-width: 501px) and (max-width: 702px) {
+  .photos img {
+    width: 100%;
+  }
+
+  .text .improve {
+    font-size: 20px;
+  }
+
+  .grow:after {
+    font-size: 50px;
+  }
+
+  table 
+  {
+    width: 90%;
+  }
+
+  .service-list
+  {
+    width: 100%;
+  }
+
+    .service-list li
+  {
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+}
+
+/* *************************************  (758px) **************************************** */
+
+@media (max-width: 758px) {
+
+  .leads .leads-text-title h1
+  {
+    font-size: 25px;
+  }
+
+
+
+}
+
+/* ********************************* (500px) ************************************* */
+
+@media screen and (max-width: 500px) {
+
+  .logo a
+  {
+    font-size: 1em;
+  }
+
+  .navbar ul li a
+  {
+    padding: 0 2em 0 0;
+  }
+
+  .navbar ul li a:hover
+  {
+    padding: 0 3em;
+    background-color: transparent;
+  }
+
+  .grow:after 
+  {
+    font-size: 40px;
+  }
+
+  .text .improve 
+  {
+    font-size: 20px;
+    line-height: 3em;
+    text-transform: capitalize;
+  }
+
+  .text p 
+  {
+    display: none;
+  }
+
+  .my-photos 
+  {
+    width: 50%;
+  }
+
+  .photos img {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .info .info-left .dif1
+  {
+    margin: auto;
+  }
+
+  .leads .leads-photo 
+  {
+    margin-top: 3em;
+  }
+
+  table 
+  {
+    width: 90%;
+    margin: auto;
+  }
+
+  .tech-content
+  {
+    padding: 0;
+  }
+
+  .price .price-card
+  {
+    width: 100%;
+    margin: 1em auto;
+  }
+
+  
+ 
+}
+
+/* ******************************* (320px , 425px) *************************************** */
+
+@media  (min-width: 320px) and (max-width: 425px) {
+
+  .info
+  {
+    padding: 0;
+  }
+
+  .info-left
+  {
+    width: 100%;
+  }
+
+  .info-left .dif1
+  {
+    min-width: 260px;
+  }
+
+
+
+}
+
+
+

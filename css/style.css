@@ -1,0 +1,898 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body > * { margin-bottom: 1.5em; }
+
+.container { margin: 0 auto; max-width: 1280px; padding: 0 0.938em; }
+
+a { color: inherit; text-decoration: none;}
+
+button { border: 0; }
+
+i { color: #27D0DC; }
+
+/* ************************* start nav ************************** */
+
+.nav-content > *
+{
+  width: auto;
+}
+
+.nav-content {
+  display: flex;        
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .logo
+{
+  flex: 1;
+}
+
+.logo a
+{
+  color: aqua;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+  
+.navbar .pages
+{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar ul
+{
+  margin-bottom: 0;
+}
+
+#close-menu
+{
+  display: none;
+}
+
+.navbar ul li
+{
+  display: inline;
+  position: relative;
+  margin-left: 25px;
+}
+
+.navbar ul li a
+{
+  padding: 8px 10px;
+  color: gray;
+  transition: .5s;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.navbar ul li a:hover
+{
+  background-color: aqua;
+  border-radius: 8px;
+  color: #fff;
+}
+  
+.navbar .btn
+{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .btn button
+{
+  color: #fff;
+  transition: .5s;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-left: 2em;
+  border-radius: 5px;
+  background-color: aqua;
+  text-transform: capitalize;
+}
+
+.navbar .btn button:last-child
+{
+  background-color: #000;
+}
+
+.navbar .btn button:hover
+{
+  color: aquamarine;
+  border: 1px solid aqua;
+  background-color: transparent;
+}
+
+nav .menu 
+{
+  display: none;
+  font-size: 1.5em;
+}
+
+/* ************************* end nav ************************** */
+
+
+/* ************************* start header ************************** */
+
+.text input
+{
+  border: none;
+  width: 180px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #E4E2E2;
+}
+
+.text .grow 
+{
+  font-weight: bold;
+  margin-top: .5em;
+  text-transform: capitalize;
+}
+
+.grow:after
+{
+  content: " Audience.";
+  font-size: 80px;
+  color: aqua;
+}
+
+.text .improve
+{
+  line-height: 2em;
+  text-transform: capitalize;
+}
+
+.watch .btn2
+{
+  background-color: #27D0DC;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 6px 10px;
+  color: #fff;
+}
+
+.watch
+{
+  display: flex;
+  align-items: center;
+}
+
+.watch i
+{
+  color: #27D0DC;
+  font-size: 1.8em;
+  margin: 0 .3em;
+}
+
+.watch-btn
+{
+  border: none;
+  color: aqua;
+  padding: 0 ;
+  font-size: 18px;
+  box-shadow: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+
+.photos
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.photos img
+{
+  width: 400px;
+  margin-left: -20px;
+}
+
+/* ************************* end header ************************** */
+
+
+/* ************************* start item ************************** */
+
+.item
+{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+table 
+{
+  width: 50%;
+  margin: 1em auto 0;
+  border-collapse: collapse;
+}
+
+.item .title
+{
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.item table tr th
+{
+  color: gray;
+  padding: 1.5em 0;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  border-bottom: 4px solid gray;
+}
+
+/* ************************* end item ************************** */
+
+
+/* ************************* start info ************************** */
+
+.info
+{
+  margin-top: 10%;
+  padding: 0 5em;
+}
+
+.info-left .dif1
+{
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
+  max-width: 300px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #333;
+}
+
+.info-left .dif1 h2
+{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.info-left .dif1 .img1
+{
+  display: flex;
+  margin-top: 2em;
+  align-items: center;
+}
+
+.info-left .dif1 .img1 img
+{
+  border-radius: 30px;
+}
+
+.info-left .dif1 .img1 .img1-text
+{
+  padding-left: 1.5em;
+}
+
+.info-left .dif1 .img1 h3
+{
+  font-size: 18px;
+}
+
+.info-left .dif1 .img1 span
+{
+  color: gray;
+}
+
+.dif1 .more
+{
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+  padding: 1em 1em 0;
+  text-transform: capitalize;
+}
+
+.dif2
+{
+  position: relative;
+}
+
+.info-left .dif2 .photo
+{
+  position: relative;
+  top: -7em;
+  left: 14em;
+  border-radius: 15px;
+}
+
+.info-left .dif2 .photo img
+{
+  min-height: 200px;
+  border-radius: 15px;
+}
+
+.info-right 
+{
+  width: 100%;
+  margin-top: 2em;
+  padding-left: 3em;
+}
+
+.info-right h4
+{
+  color: aqua;
+  text-transform: capitalize;
+}
+
+.info-right h2
+{
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.info-right .pragraph
+{
+  color: gray;
+}
+
+.info-right .list
+{
+  width: 100%;
+  padding-left: 0;
+}
+
+.info-right ul li
+{
+  text-align: left;
+}
+
+.info-right .list .correct
+{
+  position: relative;
+  display: flex;
+  flex: 1;
+  right: 2em;
+  top: 1.5em;
+  color: #27D0DC;
+}
+
+/* ************************* end info ************************** */
+
+
+/* ************************* start lands ************************** */
+
+.leads
+{
+  margin-top: 4 em;
+}
+
+.leads-text
+{
+  width: 100%;
+}
+
+.leads-text .leads-text-title h1
+{
+  color: #27D0DC;
+  font-weight: bold;
+  font-size: 3.5em;
+  line-height: 2em;
+}
+
+.leads-text .leads-text-title p
+{
+  color: gray;
+  line-height: 2.5em;
+}
+
+.leads .list 
+{
+  position: relative;
+}
+
+.correct
+{
+  display: flex;
+  flex: 1;
+  position: relative;
+  right: 2em;
+  top: 1.2em;
+  color: #27D0DC;
+}
+
+.leads .leads-btn
+{
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 1s;
+  background-color: #2FCADE;
+  box-shadow: 0px 0px 5px #333;
+}
+
+.team .row .team-text button:hover ,
+.leads .leads-btn:hover 
+{
+  background: linear-gradient(to right ,#2FCADE , #222);
+}
+
+.leads .leads-photo img
+{
+  border-radius: 15px; 
+}
+
+/* ************************* end lands ************************** */
+
+
+/* ************************* start offer ************************** */
+
+.offer
+{
+  margin-top: 6em;
+}
+
+.general-title
+{
+  margin: auto auto 3em;
+  text-align: center;
+  width: fit-content;
+}
+
+.general-title span
+{
+  color: gray;
+  line-height: 3em;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.offer .offer-content
+{
+  /* padding-left: 2.5em; */
+}
+
+.offer .offer-about
+{
+  max-width: 350px;
+  padding: 1em 2em;
+  margin: 0 auto 3em;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #333;
+
+}
+
+.offer-about h3
+{
+  font-weight: 600;
+  line-height: 3em;
+}
+
+.offer-about p
+{
+  color: gray;
+  line-height: 2em;
+}
+
+.offer-about a
+{
+  color: #27D0DC;
+  font-weight: bold;
+}
+
+.offer-grid .offer-about a:hover
+{
+  text-decoration: underline;
+}
+
+/* ************************* end offer ************************** */
+
+
+/* *************************  start team ************************** */
+
+.team
+{
+  margin-top: 6em;
+}
+
+.team .row .team-text
+{
+  margin-top: 3em;
+  padding-left: 3em;
+}
+
+.team .row .team-text h1
+{
+  font-weight: bold;
+  line-height: 3em;
+  text-transform: capitalize;
+}
+
+.team .row .team-text p
+{
+  color: gray;
+  line-height: 2.5em;
+  text-transform: capitalize;
+}
+
+.team .row .team-text span
+{
+  color: gray;
+  font-weight: bold;
+  padding-left: .5em;
+}
+
+.team .row .team-text button
+{
+  color: #fff;
+  margin-top: 1.6em;
+  font-weight: bold;
+  padding: 5px 1.5em;
+  text-transform: capitalize;
+  background-color: #27D0DC;
+}
+
+/* ************************* end team ************************** */
+
+
+/* ************************* start pricing ************************** */
+
+.price .general-title strong 
+{
+  gap: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price .carded
+{
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.price .price-card
+{
+  padding: 1em;
+  line-height: 2em;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #333;
+}
+
+.price .price-card .price-title h3
+{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: aqua;
+
+}
+
+.price .price-card .price-title p
+{
+  color: gray;
+  font-weight: bold;
+}
+
+.price .price-card .price-mouth span
+{
+  color: #27D0DC;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.price .price-card .price-mouth span::after
+{
+  content: '/mouth';
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+}
+
+.price .price-card .price-mouth button
+{
+  width: 100%;
+  color: #fff;
+  padding: 6px 0;
+  margin-top: 1.2em;
+  border-radius: 15px;
+  background-color: #000;
+}
+
+.price .price-card .price-list
+{
+  margin-top: 2em;
+}
+
+.price .price-card .price-list li
+{
+  text-align: left;
+  line-height: 1.5em;
+  margin-top: 1em; 
+}
+
+.price .carded .background
+{
+  color: #fff;
+  background-color: #27D0DC;
+}
+
+.price .carded .background button
+{
+  color: #000;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.price .carded .background h3 ,
+.price .carded .background span ,
+.price .carded .background li i
+{
+  color: #fff;
+}
+
+/* ************************* end pricing ************************** */
+
+
+/* ************************* start join ************************** */
+
+.join
+{
+  margin-top: 10em;
+}
+
+.join .join-left
+{
+  padding: 3em 2em;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 15px;
+  line-height: 2.5em;
+  box-shadow: 0px 0px 10px #333;
+}
+
+.join .join-left span
+{
+  font-weight: bold;
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.join .join-left h1
+{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 18px;
+  font-size: 30px;
+  color: #2FCADE;
+}
+
+.join .join-left p
+{
+  color: gray;
+  font-weight: bold;
+}
+
+.join .join-right
+{
+  padding: 3em 2em;
+  max-width: 600px;
+  border-radius: 15px;
+  line-height: 2.5em;
+  box-shadow: 0px 0px 10px #333;
+}
+
+.join .join-right input ,
+.join .join-right button
+{
+  width: 100%;
+  margin-top: 1em;
+  font-weight: bold;
+  margin-bottom: 2em;
+  padding: 0px 10px;
+}
+
+.join .join-right button
+{
+  color: #fff;
+  transition: .5s;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.join .join-right button:hover
+{
+  color: #000;
+  border: 1px solid #27D0DC;
+  background-color: transparent;
+}
+
+/* ************************* end join ************************** */
+
+
+/* ************************* start footer ************************** */
+
+#footer 
+{
+  color: #333;
+  margin-top: 10em;
+  font-size: 14px;
+  padding: 0 0 30px 0;
+  background-color: #ddd;
+  box-shadow: 0 0 5px #000;
+}
+
+#footer .footer-top
+{
+  padding: 1em 2em;
+  box-shadow: 0 0 5px #000;
+}
+
+#footer .footer-top .footer-info 
+{
+  margin-top: 30px;
+}
+
+#footer .footer-top .footer-info h3 
+{
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  color: #000;
+}
+
+#footer .footer-top .footer-info p 
+{
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 24px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+#footer .footer-top .social-links a 
+{
+  width: 36px;
+  height: 36px;
+  line-height: 1;
+  padding: 8px 0;
+  font-size: 18px;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  transition: all .3s;
+  background: #545454;
+  display: inline-block;
+}
+
+#footer .footer-top .social-links a:hover 
+{
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(to top, #27D0DC, #000);
+}
+
+#footer .footer-top h4 
+{
+  color: #000;
+  font-size: 16px;
+  margin-top: 2em;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#footer .footer-top .footer-links 
+{
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#footer .footer-top .footer-links ul i 
+{
+  line-height: 1;
+  font-size: 12px;
+  padding-right: 5px;
+  color: gray;
+}
+
+#footer .footer-top .footer-links ul li 
+{
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child 
+{
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a 
+{
+  line-height: 1;
+  transition: .5s;
+  display: inline-block;
+}
+
+#footer .footer-top .footer-links ul a:hover 
+{
+  color: #27D0DC;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #27D0DC;
+}
+
+#footer .footer-top .footer-contact 
+{
+  margin-bottom: 30px
+}
+
+#footer .footer-top .footer-contact p 
+{
+  line-height: 26px;
+  color: gray;
+}
+
+#footer .copyright 
+{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits 
+{
+  font-size: 13px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#footer .credits a 
+{
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+/* ************************* end footer ************************** */
+
+
+
+
+
+
+
